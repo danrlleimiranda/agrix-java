@@ -3,8 +3,8 @@ package com.betrybe.agrix.ebytr.staff.controller;
 
 import com.betrybe.agrix.ebytr.staff.controller.dto.FertilizerCreationDto;
 import com.betrybe.agrix.ebytr.staff.controller.dto.FertilizerDto;
-import com.betrybe.agrix.ebytr.staff.service.exception.FertilizerNotFoundException;
 import com.betrybe.agrix.ebytr.staff.service.FertilizerService;
+import com.betrybe.agrix.ebytr.staff.service.exception.FertilizerNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

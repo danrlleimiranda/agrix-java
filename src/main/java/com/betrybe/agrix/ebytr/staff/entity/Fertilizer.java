@@ -26,7 +26,6 @@ public class Fertilizer {
   @ManyToMany(mappedBy = "fertilizers")
   private List<Crop> crops;
 
-
   /**
    * Instantiates a new Fertilizer.
    */
